@@ -107,7 +107,7 @@
 				<label for="informations_api" class="col-sm-4 control-label">API (informations)</label>
 				<div class="col-sm-8">
 					<select class="form-control" id="informations_api" name="informations_api">
-						<option value="litebit" {{ ($coin->informations_api != 'coinwarz' ?: 'selected' ) }}>Coinwarz</option>
+						<option value="coinwarz" {{ ($coin->informations_api != 'coinwarz' ?: 'selected' ) }}>Coinwarz</option>
 					</select>
 				</div>
 			</div>
